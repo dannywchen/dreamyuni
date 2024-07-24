@@ -9,13 +9,13 @@
         </li>
         <div class="flex gap-10">
           <li>
-            <nuxt-link to="/">About Us</nuxt-link>
+            <nuxt-link to="/aboutus">About Us</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">Sign Up</nuxt-link>
+            <nuxt-link to="/signup">Sign Up </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/">Courses</nuxt-link>
+            <nuxt-link to="courses">Courses</nuxt-link>
           </li>
         </div>
       </ul>
@@ -25,6 +25,8 @@
   <slot />
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const router = useRouter();
+</script>
 
 <style scoped></style>
