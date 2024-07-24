@@ -1,7 +1,7 @@
 <template>
   <div>
     <Head>
-      <Title>Dreamy Uni</Title>
+      <Title>Dreamy Uni - Danny Uni</Title>
       <Meta name="description" content="Dream the Cream" />
     </Head>
 
