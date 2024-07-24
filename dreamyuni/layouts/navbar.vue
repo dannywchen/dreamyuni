@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full mb-[2rem] px-[30rem] py-[2rem] border-solid border-black border-b-[1px]"
+    class="w-full mb-[2rem] px-[30rem] py-[2rem] border-solid border-gray border-b-[1px]"
   >
     <nav>
       <ul class="flex flex-row justify-between items-center">
