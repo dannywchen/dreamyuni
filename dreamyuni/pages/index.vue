@@ -52,8 +52,84 @@
       </div>
     </section>
 
+    <!-- Bento Box Section -->
+    <section class="py-20 px-4 relative z-10">
+      <h2 class="text-3xl font-bold text-center mb-12 text-purple-300 font-cormorant">Explore DreamyUni</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-gray-800 bg-opacity-80 rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+          <h3 class="text-xl font-bold mb-4 text-blue-300 font-montserrat">College Finder</h3>
+          <p class="text-gray-300 font-lato mb-4">Discover your perfect college match with our advanced search tool.</p>
+          <button class="bg-blue-300 text-gray-900 px-4 py-2 rounded-full hover:bg-blue-400 transition duration-300 font-montserrat">Start Searching</button>
+        </div>
+        <div class="bg-gray-800 bg-opacity-80 rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 md:row-span-2">
+          <h3 class="text-xl font-bold mb-4 text-pink-300 font-montserrat">Application Tracker</h3>
+          <p class="text-gray-300 font-lato mb-4">Stay organized and never miss a deadline with our comprehensive application tracker.</p>
+          <div class="bg-gray-700 rounded-lg p-4 mb-4">
+            <h4 class="text-lg font-semibold mb-2 text-white font-montserrat">Upcoming Deadlines</h4>
+            <ul class="text-gray-300 font-lato">
+              <li>Harvard University - Dec 1</li>
+              <li>Stanford University - Jan 5</li>
+              <li>MIT - Jan 15</li>
+            </ul>
+          </div>
+          <button class="bg-pink-300 text-gray-900 px-4 py-2 rounded-full hover:bg-pink-400 transition duration-300 font-montserrat">View My Applications</button>
+        </div>
+        <div class="bg-gray-800 bg-opacity-80 rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+          <h3 class="text-xl font-bold mb-4 text-green-300 font-montserrat">Essay Workshop</h3>
+          <p class="text-gray-300 font-lato mb-4">Craft compelling essays with our guided workshops and expert feedback.</p>
+          <button class="bg-green-300 text-gray-900 px-4 py-2 rounded-full hover:bg-green-400 transition duration-300 font-montserrat">Start Writing</button>
+        </div>
+        <div class="bg-gray-800 bg-opacity-80 rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+          <h3 class="text-xl font-bold mb-4 text-yellow-300 font-montserrat">Scholarship Finder</h3>
+          <p class="text-gray-300 font-lato mb-4">Uncover scholarship opportunities tailored to your unique profile.</p>
+          <button class="bg-yellow-300 text-gray-900 px-4 py-2 rounded-full hover:bg-yellow-400 transition duration-300 font-montserrat">Find Scholarships</button>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer Section -->
     <footer class="bg-gray-900 py-12 px-4 relative z-10 font-lato">
+      <div class="max-w-6xl mx-auto flex flex-wrap justify-between">
+        <div class="w-full md:w-1/4 mb-8 md:mb-0">
+          <h4 class="text-xl font-bold mb-4 text-purple-300">DreamyUni</h4>
+          <p class="text-gray-400">Empowering students to achieve their college dreams.</p>
+        </div>
+        <div class="w-full md:w-1/4 mb-8 md:mb-0">
+          <h4 class="text-lg font-semibold mb-4 text-blue-300">Quick Links</h4>
+          <ul class="text-gray-400">
+            <li class="mb-2"><a href="#" class="hover:text-white transition duration-300">Home</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-white transition duration-300">About Us</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-white transition duration-300">Services</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-white transition duration-300">Contact</a></li>
+          </ul>
+        </div>
+        <div class="w-full md:w-1/4 mb-8 md:mb-0">
+          <h4 class="text-lg font-semibold mb-4 text-pink-300">Contact Us</h4>
+          <p class="text-gray-400 mb-2">123 Dream Street, College Town, ST 12345</p>
+          <p class="text-gray-400 mb-2">Phone: (123) 456-7890</p>
+          <p class="text-gray-400">Email: info@dreamyuni.com</p>
+        </div>
+        <div class="w-full md:w-1/4">
+          <h4 class="text-lg font-semibold mb-4 text-green-300">Follow Us</h4>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-gray-400">
+        <p>&copy; 2023 DreamyUni. All rights reserved.</p>
+      </div>
     </footer>
   </div>
 </template>
@@ -102,7 +178,8 @@ onMounted(() => {
 
 body {
   font-family: 'Lato', sans-serif;
-  @apply bg-black text-gray-300;
+  background-color: black;
+  color: #d1d5db;
 }
 
 .font-playfair {
@@ -122,19 +199,33 @@ body {
 }
 
 .testimonial-row {
-  @apply relative h-20 mb-5 overflow-hidden;
+  position: relative;
+  height: 5rem;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
 }
 
 .testimonial-container {
-  @apply absolute flex h-full;
+  position: absolute;
+  display: flex;
+  height: 100%;
 }
 
 .testimonial-card {
-  @apply flex-none w-56 h-20 bg-gray-800 bg-opacity-80 rounded-lg p-2.5 mr-5 shadow-md transition-all duration-300;
+  flex: none;
+  width: 14rem;
+  height: 5rem;
+  background-color: rgba(31, 41, 55, 0.8);
+  border-radius: 0.5rem;
+  padding: 0.625rem;
+  margin-right: 1.25rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
 }
 
 .testimonial-card:hover {
-  @apply transform -translate-y-1 shadow-lg;
+  transform: translateY(-0.25rem);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .move-right {
