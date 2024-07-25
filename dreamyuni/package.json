@@ -10,7 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "chart.js": "^4.4.3",
+    "framer": "^2.4.1",
+    "googlemaps": "^1.12.0",
+    "gsap": "^3.12.5",
+    "motion": "^10.18.0",
     "nuxt": "^3.12.4",
+    "three": "^0.167.0",
     "vue": "latest"
   },
   "devDependencies": {
