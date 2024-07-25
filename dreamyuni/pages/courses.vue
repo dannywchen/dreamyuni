@@ -27,11 +27,10 @@
       </div>
     </header>
 
-    <!-- Main Content Area -->
     <main class="dashboard-content">
       <h1 class="dashboard-title">Course Dashboard</h1>
 
-      <!-- Error Message -->
+      
       <div class="error-message">
         <h2>404 - Page Not Found</h2>
         <p>Sorry, the page you are looking for does not exist or has been moved.</p>
@@ -39,7 +38,6 @@
       </div>
     </main>
 
-    <!-- Footer -->
     <footer class="dashboard-footer">
       <p>&copy; 2023 Dreamy Uni. All rights reserved.</p>
       <nav>
@@ -133,5 +131,4 @@ onMounted(() => {
   background-color: #0056b3;
 }
 
-/* Existing styles... */
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white relative overflow-hidden font-playfair">
-    <!-- Confetti and Stars -->
+    <!-- Stars Add More -->
     <div class="absolute inset-0 pointer-events-none">
       <div v-for="i in 50" :key="i" class="absolute animate-twinkle" :style="{ top: `${Math.random() * 100}%`, left: `${Math.random() * 100}%` }">
         <div class="w-1 h-1 bg-white rounded-full"></div>
@@ -54,7 +54,6 @@
 
     <!-- Footer Section -->
     <footer class="bg-gray-900 py-12 px-4 relative z-10 font-lato">
-      <!-- Footer content remains unchanged -->
     </footer>
   </div>
 </template>
