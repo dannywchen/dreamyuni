@@ -22,18 +22,58 @@
 
     <!-- Testimonials Section -->
     <section class="py-20 px-4">
-      <h2 class="text-3xl font-bold text-center mb-2">What Our Students Say</h2>
-      <p class="text-center mb-12">Hear from those who have experienced the DreamyUni difference.</p>
+      <h2 class="text-3xl font-bold text-center mb-2">Don't take our word for it</h2>
+      <p class="text-center mb-12 text-gray-400">Hear what real people have to say about us.</p>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-        <div v-for="i in 6" :key="i" class="bg-gray-800 p-6 rounded-lg">
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg testimonial">
           <div class="flex items-center mb-4">
-            <img :src="'https://placehold.co/40x40'" :alt="`Testimonial ${i}`" class="w-10 h-10 rounded-full mr-4">
-            <div>
-              <h3 class="font-bold">Student {{ i }}</h3>
-              <p class="text-sm text-gray-400">@student{{ i }}</p>
+            <div class="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-green-500 flex items-center justify-center text-white font-bold">MF</div>
+            <div class="ml-4">
+              <h3 class="font-bold text-white">Marcello Fonseca</h3>
+              <p class="text-sm text-gray-400">@Marcello Fonseca</p>
             </div>
           </div>
-          <p>"DreamyUni has transformed my learning experience. The courses are top-notch and the community is incredibly supportive. 🌟"</p>
+          <p class="text-white">"Very Nice!! 🔥😲"</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg testimonial">
+          <div class="flex items-center mb-4">
+            <img src="https://placehold.co/40x40" alt="Sayed Suliman" class="w-10 h-10 rounded-full mr-4">
+            <div>
+              <h3 class="font-bold text-white">Sayed Suliman</h3>
+              <p class="text-sm text-gray-400">@Sayed Suliman</p>
+            </div>
+          </div>
+          <p class="text-white">"Can't wait! 😲"</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg testimonial">
+          <div class="flex items-center mb-4">
+            <img src="https://placehold.co/40x40" alt="Danny Chen" class="w-10 h-10 rounded-full mr-4">
+            <div>
+              <h3 class="font-bold text-white">Danny Chen</h3>
+              <p class="text-sm text-gray-400">@Danny Chen</p>
+            </div>
+          </div>
+          <p class="text-white">"That is smooth like butter 🔥"</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg testimonial">
+          <div class="flex items-center mb-4">
+            <img src="https://placehold.co/40x40" alt="Jerome Renard" class="w-10 h-10 rounded-full mr-4">
+            <div>
+              <h3 class="font-bold text-white">Jerome Renard</h3>
+              <p class="text-sm text-gray-400">@Jerome Renard</p>
+            </div>
+          </div>
+          <p class="text-white">"Looking really good!"</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg testimonial">
+          <div class="flex items-center mb-4">
+            <img src="https://placehold.co/40x40" alt="Dally R" class="w-10 h-10 rounded-full mr-4">
+            <div>
+              <h3 class="font-bold text-white">Dally R</h3>
+              <p class="text-sm text-gray-400">@Dally R</p>
+            </div>
+          </div>
+          <p class="text-white">"Great job! Love this. I will go through and provide the feedback."</p>
         </div>
       </div>
     </section>
@@ -93,6 +133,7 @@ onMounted(() => {
     trigger: ".testimonial",
     start: "top 80%",
   }});
+  document.documentElement.classList.add('dark');
 });
 </script>
 
@@ -101,6 +142,8 @@ onMounted(() => {
 
 body {
   font-family: 'Inter', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 /* Add any additional custom styles here */
