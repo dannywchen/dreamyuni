@@ -105,7 +105,7 @@
         </div>
         <div class="w-full md:w-1/4 mb-8 md:mb-0">
           <h4 class="text-lg font-semibold mb-4 text-pink-300">Contact Us</h4>
-          <p class="text-gray-400 mb-2">123 Dream Street, College Town, ST 12345</p>
+          <p class="text-gray-400 mb-2">Dream Ryan Street</p>
           <p class="text-gray-400 mb-2">Phone: (123) 456-7890</p>
           <p class="text-gray-400">Email: info@dreamyuni.com</p>
         </div>
@@ -128,7 +128,7 @@
         </div>
       </div>
       <div class="mt-8 text-center text-gray-400">
-        <p>&copy; 2023 DreamyUni. All rights reserved.</p>
+        <p>&copy; 2024 DreamyUni. All rights reserved.</p>
       </div>
     </footer>
   </div>
