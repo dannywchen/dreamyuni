@@ -8,7 +8,11 @@
         designed to help you learn new skills and improve your career.
       </p>
       <div class="flex justify-center">
-        <img src="../public/Monkey-Selfie.webp" alt="danny selfie" class="rounded-full shadow-lg w-64 h-64 object-cover" />
+        <img
+          src="../public/Monkey-Selfie.webp"
+          alt="danny selfie"
+          class="rounded-full shadow-lg w-64 h-64 object-cover"
+        />
       </div>
     </div>
   </div>

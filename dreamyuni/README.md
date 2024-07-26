@@ -7,8 +7,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
+npm i
 ```
 
 ## Development Server
@@ -16,7 +15,6 @@ npm install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
 npm run dev
 ```
 
@@ -25,15 +23,16 @@ npm run dev
 Build the application for production:
 
 ```bash
-# npm
 npm run build
 ```
 
-Locally preview production build:
+## Extensions
 
-```bash
-# npm
-npm run preview
-```
+- Nuxtr
+- Vue Official
+- Vue 3 Snippets
+- Vue VSCode Snippets
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Vue Template
+
+Always use "vbase-3-ts-setup" snippet to start a vue file

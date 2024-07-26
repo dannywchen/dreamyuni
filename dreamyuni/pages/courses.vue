@@ -3,14 +3,21 @@
     <!-- Header -->
     <header class="dashboard-header">
       <div class="logo">
-        <img src="https://placehold.co/200x100?text=Dreamy+Uni" alt="Dreamy Uni Logo" />
+        <img
+          src="https://placehold.co/200x100?text=Dreamy+Uni"
+          alt="Dreamy Uni Logo"
+        />
       </div>
       <div class="search-bar">
         <input type="text" placeholder="Search..." />
         <button><i class="fas fa-search"></i></button>
       </div>
       <div class="user-profile">
-        <img src="https://placehold.co/200x100?text=Dreamy+Uni" alt="User Avatar" class="avatar" />
+        <img
+          src="https://placehold.co/200x100?text=Dreamy+Uni"
+          alt="User Avatar"
+          class="avatar"
+        />
         <span class="username">John Doe</span>
         <div class="dropdown">
           <button class="dropbtn"><i class="fas fa-caret-down"></i></button>
@@ -30,10 +37,11 @@
     <main class="dashboard-content">
       <h1 class="dashboard-title">Course Dashboard</h1>
 
-      
       <div class="error-message">
         <h2>404 - Page Not Found</h2>
-        <p>Sorry, the page you are looking for does not exist or has been moved.</p>
+        <p>
+          Sorry, the page you are looking for does not exist or has been moved.
+        </p>
         <a href="/" class="btn-primary">Go to Homepage</a>
       </div>
     </main>
@@ -50,14 +58,14 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { onMounted, ref } from "vue";
+
+onMounted(() => {
+  console.error("404 - Page Not Found");
+});
 
 definePageMeta({
   layout: "navbar",
-});
-
-onMounted(() => {
-  console.error('404 - Page Not Found');
 });
 </script>
 
@@ -80,7 +88,7 @@ onMounted(() => {
   align-items: center;
   padding: 1rem;
   background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .dashboard-content {
@@ -130,5 +138,4 @@ onMounted(() => {
 .btn-primary:hover {
   background-color: #0056b3;
 }
-
 </style>

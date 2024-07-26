@@ -1,5 +1,5 @@
 <template>
-  <div>hello world</div>
+  <div>college</div>
 </template>
 
 <script setup lang="ts"></script>
