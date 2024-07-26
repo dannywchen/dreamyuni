@@ -6,9 +6,11 @@
         alt="Dreamy Uni Logo"
         class="h-8 w-8"
       />
-      <span class="text-xl font-bold"
+      <nuxt-link to="/" class="text-xl font-bold"
         >Dreamy Uni
-        <span class="text-xs bg-gray-200 px-2 py-1 rounded">Beta</span></span
+        <span class="text-xs bg-gray-200 px-2 py-1 rounded"
+          >Beta</span
+        ></nuxt-link
       >
     </div>
     <nav class="hidden md:flex space-x-6">
