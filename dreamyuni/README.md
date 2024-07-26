@@ -32,6 +32,8 @@ npm run build
 - Vue Official
 - Vue 3 Snippets
 - Vue VSCode Snippets
+- Tailwind Documentation (optional)
+- Git Blame (dk why it doesnt work)
 
 ## Vue Template
 
