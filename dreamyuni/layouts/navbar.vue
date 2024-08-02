@@ -1,5 +1,7 @@
 <template>
-  <div class="py-4 px-8 flex justify-between items-center bg-white text-black">
+  <div
+    class="py-4 px-8 flex justify-between items-center bg-white text-black border-b-gray-400 border-solid border-[1px]"
+  >
     <div class="flex items-center space-x-4">
       <img
         src="https://placehold.co/40x40"
@@ -37,7 +39,7 @@
     </div>
   </div>
 
-  <slot></slot>
+  <slot />
 </template>
 
 <script setup lang="ts">

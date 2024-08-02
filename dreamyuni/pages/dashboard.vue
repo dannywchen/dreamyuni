@@ -1,13 +1,13 @@
 <template>
-  <div class="mt-[3rem] px-[5rem]">
-    <header>
-      <h1>Hello {{ name }}</h1>
-      <p>Manage your portfolio</p>
+  <div class="mt-[3rem] px-[5rem] max-h-screen h-screen">
+    <header class="pb-[1.25rem] border-b-[2px] border-b-gray-200 border-solid">
+      <h1 class="font-bold text-3xl">Hello {{ name }}</h1>
+      <p class="text-lg mt-[1rem]">Manage your college journey below :)</p>
     </header>
 
-    <div class="flex flex-row justify-between">
-      <main class="w-[75%]">
-        <div class="flex flex-row justify-between">
+    <div class="flex flex-row justify-between h-full">
+      <main class="w-[70%]">
+        <div class="flex flex-row justify-between py-[3rem]">
           <Dashboardinfo
             v-for="(item, index) in data"
             :key="index"
@@ -23,8 +23,9 @@
         </p>
       </main>
 
-      <aside class="w-[20%] p-7">
-        <h2 class="font-bold">Tasks</h2>
+      <aside class="w-[27.5%] p-[3rem] bg-gray-300">
+        <h2 class="text-xl font-semibold mb-1">Tasks</h2>
+        <p class="text-gray-700">Upcoming tasks in the roadmap.</p>
       </aside>
     </div>
   </div>
