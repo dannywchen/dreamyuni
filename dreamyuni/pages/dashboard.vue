@@ -1,11 +1,11 @@
 <template>
-  <div class="mt-[3rem] px-[5rem] max-h-screen h-screen">
+  <div class="mt-[3rem] px-[5rem] h-full">
     <header class="pb-[1.25rem] border-b-[2px] border-b-gray-200 border-solid">
       <h1 class="font-bold text-3xl">Hello {{ name }}</h1>
       <p class="text-lg mt-[1rem]">Manage your college journey below :)</p>
     </header>
 
-    <div class="flex flex-row justify-between h-full">
+    <div class="flex flex-row justify-between h-100vh">
       <main class="w-[70%]">
         <div class="flex flex-row justify-between py-[3rem]">
           <Dashboardinfo
