@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white relative overflow-hidden font-playfair"
+    class="px-[30rem] min-h-screen bg-gradient-to-br from-gray-900 to-black text-white relative overflow-hidden font-playfair"
   >
     <!-- Stars and Confetti -->
     <div class="absolute inset-0 pointer-events-none">
@@ -32,7 +32,7 @@
 
     <!-- Main Banner Section -->
     <main
-      class="flex items-center justify-center h-[100vh] px-auto relative z-10 text-center"
+      class="flex items-center justify-center h-[90vh] px-auto relative z-10 text-center"
     >
       <div class="flex flex-col h-[70%] items-center justify-evenly">
         <div

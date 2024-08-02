@@ -6,7 +6,7 @@
     </Head>
 
     <NuxtLayout>
-      <NuxtPage class="px-[30rem]" />
+      <NuxtPage />
     </NuxtLayout>
   </div>
 </template>
