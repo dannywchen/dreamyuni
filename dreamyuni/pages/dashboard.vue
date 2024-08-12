@@ -2,7 +2,9 @@
   <div class="mt-[3rem] px-[5rem] h-full">
     <header class="pb-[1.25rem] border-b-[2px] border-b-gray-200 border-solid">
       <h1 class="font-bold text-3xl">Hello {{ name }}</h1>
-      <p class="text-lg mt-[1rem]">Manage your college journey below :)</p>
+      <p class="text-lg text-gray-500 mt-[1rem]">
+        Manage your college journey below :)
+      </p>
     </header>
 
     <div class="flex flex-row justify-between h-100vh">

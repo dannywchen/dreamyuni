@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[30%] p-4 rounded-md border-[1px] border-gray-300 border-solid">
+  <div class="w-[30%] p-4 rounded-lg border-[1px] border-gray-300 border-solid">
     <h3 class="text-xl mb-[1rem]">{{ title }}</h3>
     <p class="text-base">
       <span class="font-bold">{{ credits }}</span> Credits

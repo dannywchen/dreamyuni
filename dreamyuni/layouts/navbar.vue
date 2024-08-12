@@ -19,9 +19,11 @@
       <nuxt-link to="/dashboard" class="hover:text-gray-600"
         >Dashboard</nuxt-link
       >
-      <nuxt-link to="/college" class="hover:text-gray-600">College</nuxt-link>
-      <nuxt-link to="/scholarships" class="hover:text-gray-600"
-        >Scholarships</nuxt-link
+      <nuxt-link to="/collegetracker" class="hover:text-gray-600"
+        >College</nuxt-link
+      >
+      <nuxt-link to="/essaymanager" class="hover:text-gray-600"
+        >Essays</nuxt-link
       >
       <nuxt-link to="/temporary" class="hover:text-gray-600"
         >Temporary</nuxt-link
