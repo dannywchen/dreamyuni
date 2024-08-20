@@ -15,7 +15,7 @@
 
       <div class="flex flex-col gap-2 mt-[0.75rem]">
         <div
-          class="flex flex-row justify-between p-[1rem] rounded-xl border-[1px] border-gray-300 border-solid"
+          class="flex flex-row justify-between items-center p-[1rem] rounded-xl border-[1px] border-gray-300 border-solid"
         >
           <div class="flex flex-row">
             <img
@@ -30,7 +30,36 @@
               <p class="text-lg text-gray-500">Drafts: 0</p>
             </div>
           </div>
-          <button class="">Manage</button>
+          <button
+            class="h-[2.5rem] px-[1.5rem] bg-blue-500 rounded-lg border-[1px] border-gray-300 border-solid"
+          >
+            Manage
+          </button>
+        </div>
+
+        <div
+          class="flex flex-row justify-between items-center p-[1rem] rounded-xl border-[1px] border-gray-300 border-solid"
+          v-for="(item, index) in list"
+          :key="index"
+        >
+          <div class="flex flex-row">
+            <img
+              src="/assets/commonappicon.webp"
+              alt=""
+              class="h-[4.5rem] mr-[1rem] rounded-2xl"
+            />
+            <div>
+              <h3 class="font-bold text-xl">
+                {{ item.name }}
+              </h3>
+              <p class="text-lg text-gray-500">Drafts: {{ item.drafts }}</p>
+            </div>
+          </div>
+          <button
+            class="h-[2.5rem] px-[1.5rem] bg-blue-500 rounded-lg border-[1px] border-gray-300 border-solid"
+          >
+            Manage
+          </button>
         </div>
       </div>
     </main>
@@ -38,6 +67,17 @@
 </template>
 
 <script setup lang="ts">
+const list = ref([
+  {
+    name: "Harvard University",
+    drafts: 0,
+  },
+  {
+    name: "Massachusetts Institute of Technology",
+    drafts: 0,
+  },
+]);
+
 definePageMeta({
   layout: "navbar",
 });
